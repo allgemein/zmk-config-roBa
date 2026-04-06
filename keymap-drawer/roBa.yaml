@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - F
-  - TAB
+  - '`'
   - ''''
   - B
   - H
@@ -37,11 +37,11 @@ layers:
   - /
   - LCTRL
   - LEFT WIN
-  - LEFT ALT
-  - {t: '&to_layer_0 RALT', h: '6'}
-  - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
+  - {t: '&to_layer_0 K_LOCK', h: '6'}
   - BACKSPACE
+  - {t: SPACE, h: NUM}
+  - {t: '&to_layer_0 LEFT_ALT', h: ARROW}
+  - {t: '&to_layer_0 RALT', h: ARROW}
   - {t: ENTER, h: FUNCTION}
   - ESC
   FUNCTION:
@@ -152,7 +152,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT SHIFT
@@ -163,9 +163,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -184,7 +184,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -196,7 +196,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - '&mkp MB3'
+  - {t: ▽, type: trans}
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -301,8 +301,8 @@ layers:
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
